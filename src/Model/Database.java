@@ -215,7 +215,7 @@ public class Database {
     public void updateMuzzakki(Muzzakki m){
         connect();
         String query = "UPDATE muzzakki SET idZakat = '" + m.getIdZakat() + "',"
-                       + "muzzakki = '"+m.getNama()+"', "
+                       + "namaMuzzakki = '"+m.getNama()+"', "
                        + "alamat = '"+m.getAlamat()+"', "
                        + "jiwa = '"+m.getJumlah()+"', "
                        + "jenis = '"+m.getJenis()+"', "
